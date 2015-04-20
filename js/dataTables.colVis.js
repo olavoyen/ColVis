@@ -255,7 +255,7 @@ ColVis.prototype = {
 
 		this.dom.button = $( '<button />', {
 				'class': !this.s.dt.bJUI ?
-					"ColVis_Button ColVis_MasterButton" :
+					"btn btn-default btn-xs mr5" :
 					"ColVis_Button ColVis_MasterButton ui-button ui-state-default"
 			} )
 			.append( '<span>'+this.s.buttonText+'</span>' )
